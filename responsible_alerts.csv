@@ -1,0 +1,6 @@
+masked_account,prediction,confidence,severity,reason,recommended_action,human_review
+ACC-***01,Normal,0.9322033898305084,Low,no strong warning,Continue normal monitoring.,No
+ACC-***02,Suspicious,1.0,High,"many failed logins, new device, unusual login time","Verify, contain if required, and report after human review.",Yes
+ACC-***03,Suspicious,0.6,High,large data download,"Verify, contain if required, and report after human review.",Yes
+ACC-***04,Normal,0.75,Low,"new device, unusual login time",Continue normal monitoring.,No
+ACC-***05,Normal,0.9322033898305084,Low,no strong warning,Continue normal monitoring.,No
